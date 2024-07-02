@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+body > * {
+    margin: 0pt 5pt;
+}
+body > video {
+    width: calc((100vw - 120pt - 5pt * 6 - 1pt * 4) / 2);
+    height: calc((100vw - 120pt - 5pt * 6 - 1pt * 4) / 2 * 0.75);
+    border: 1px solid grey;
+}
+body > div {
+    width: 120pt;
+}
+body > div input[type=button] {
+    display: block;
+    width: 100%;
+    margin: 2pt 0pt;
+}
+body > div span {
+    display: block;
+    height: 5pt;
+}
+#download {
+    display: none;
+}

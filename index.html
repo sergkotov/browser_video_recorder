@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Запись видео</title>
+        <link href="video-recorder.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <video id="control" muted></video>
+        <div>
+            <input type="button" id="start" value="Старт" disabled>
+            <span></span>
+            <input type="button" id="pause" value="Пауза" disabled>
+            <input type="button" id="resume" value="Возобновление" disabled>
+            <span></span>
+            <input type="button" id="stop" value="Стоп" disabled>
+            <span></span>
+            <input type="button" id="save" value="Сохранить" disabled>
+            <input type="button" id="upload" value="Выгрузить" disabled>
+            <span></span>
+            <input type="button" id="reset" value="Сброс" disabled>
+            <a href="#" id="download"></a>
+        </div>
+        <video id="recorded" controls></video>
+    </body>
+</html>
